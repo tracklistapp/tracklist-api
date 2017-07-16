@@ -25,11 +25,6 @@ async function hello (ctx, next) {
 /**
   * Resolve tracks by searching on multiple sources
   * (soundcloud, youtube, mixcloud, spotify and more...)
-  * @name resolve
-  * @function
-  * @param {Object} req
-  * @param {Object} res
-  * @param {Object} next
   */
 
 async function resolve (ctx, next) {
