@@ -1,0 +1,40 @@
+{
+  "name": "tracklist-api",
+  "version": "1.0.0",
+  "description": "Tracklist-API",
+  "main": "index.js",
+  "babel": {
+    "plugins": [
+      "add-module-exports"
+    ],
+    "presets": [
+      "env"
+    ]
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "dotenv": "^4.0.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "request-promise": "^4.2.1",
+    "rsvp": "^3.6.1",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-env": "^1.4.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "babel-node ./index.js"
+  },
+  "keywords": [
+    "Tracklisting"
+  ],
+  "author": "Augustin Godiscal <hello@auggod.tech>",
+  "license": "MIT"
+}
